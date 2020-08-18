@@ -1,0 +1,17 @@
+1597690596417	geckodriver	INFO	Listening on 127.0.0.1:30077
+1597690596898	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\regon\\AppData\\Local\\Temp\\rust_mozprofile7khbwz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597690599646	Marionette	INFO	Listening on port 53576
+1597690600025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://st.mdstatic.org/App2//vendor.bb129ae14a36491b16f3.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.moedelo.org/Main?_companyId=9137852, line 2: unreachable code after return statement
+1597690608141	Marionette	INFO	Stopped listening on port 53576
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

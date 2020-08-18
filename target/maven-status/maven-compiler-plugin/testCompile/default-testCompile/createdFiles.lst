@@ -1,0 +1,8 @@
+Pages\ForgotPasswordPage.class
+Tests\SignInTest.class
+Pages\RegistrationPage.class
+Settings\Configurations.class
+Settings\ScreenshotListener.class
+Pages\UserMainPage.class
+Settings\Helpers.class
+Pages\SignInPage.class

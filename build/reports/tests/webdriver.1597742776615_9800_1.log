@@ -1,0 +1,347 @@
+[1597742776.731][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 3370
+[1597742776.731][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597742777.160][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "B:\\IntelijIdea_projects\\Moedelo\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "B:\\IntelijIdea_projects\\Moedelo\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597742777.163][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "B:\\IntelijIdea_projects\\Moedelo\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597742777.164][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597742777.165][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\regon\AppData\Local\Temp\scoped_dir1480_598340894" data:,
+[1597742777.651][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597742779.658][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597742781.679][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\regon\\AppData\\Local\\Temp\\scoped_dir1480_598340894"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63577"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a6e7a7ffcdda0dcf9cd3cd20917ad95f"
+}
+[1597742781.686][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND MaximizeWindow {
+
+}
+[1597742781.686][INFO]: Waiting for pending navigations...
+[1597742781.688][INFO]: Done waiting for pending navigations. Status: ok
+[1597742781.797][INFO]: Waiting for pending navigations...
+[1597742781.799][INFO]: Done waiting for pending navigations. Status: ok
+[1597742781.799][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1597742781.805][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND Navigate {
+   "url": "https://oauth.moedelo.org/Authorize"
+}
+[1597742781.806][INFO]: Waiting for pending navigations...
+[1597742781.807][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.179][INFO]: Waiting for pending navigations...
+[1597742782.803][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.803][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE Navigate
+[1597742782.818][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597742782.818][INFO]: Waiting for pending navigations...
+[1597742782.818][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.828][INFO]: Waiting for pending navigations...
+[1597742782.829][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.829][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "971b887e-ccf6-4eb0-9515-6efcc54e8cad"
+}
+[1597742782.832][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindChildElement {
+   "id": "971b887e-ccf6-4eb0-9515-6efcc54e8cad",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/BizRegistration\"]"
+}
+[1597742782.832][INFO]: Waiting for pending navigations...
+[1597742782.833][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.842][INFO]: Waiting for pending navigations...
+[1597742782.842][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.842][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742782.862][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597742782.862][INFO]: Waiting for pending navigations...
+[1597742782.863][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.901][INFO]: Waiting for pending navigations...
+[1597742782.902][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.902][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE ExecuteScript true
+[1597742782.905][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597742782.905][INFO]: Waiting for pending navigations...
+[1597742782.906][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.910][INFO]: Waiting for pending navigations...
+[1597742782.910][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.910][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "971b887e-ccf6-4eb0-9515-6efcc54e8cad"
+}
+[1597742782.913][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindChildElement {
+   "id": "971b887e-ccf6-4eb0-9515-6efcc54e8cad",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/BizRegistration\"]"
+}
+[1597742782.913][INFO]: Waiting for pending navigations...
+[1597742782.914][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.917][INFO]: Waiting for pending navigations...
+[1597742782.918][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.918][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742782.925][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597742782.925][INFO]: Waiting for pending navigations...
+[1597742782.926][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.935][INFO]: Waiting for pending navigations...
+[1597742782.935][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.935][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE ExecuteScript true
+[1597742782.939][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597742782.939][INFO]: Waiting for pending navigations...
+[1597742782.940][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.944][INFO]: Waiting for pending navigations...
+[1597742782.945][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.945][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "971b887e-ccf6-4eb0-9515-6efcc54e8cad"
+}
+[1597742782.948][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindChildElement {
+   "id": "971b887e-ccf6-4eb0-9515-6efcc54e8cad",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/BizRegistration\"]"
+}
+[1597742782.948][INFO]: Waiting for pending navigations...
+[1597742782.949][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.952][INFO]: Waiting for pending navigations...
+[1597742782.953][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.953][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742782.955][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND GetElementTagName {
+   "id": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742782.955][INFO]: Waiting for pending navigations...
+[1597742782.955][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.958][INFO]: Waiting for pending navigations...
+[1597742782.958][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.958][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE GetElementTagName "a"
+[1597742782.960][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND GetElementText {
+   "id": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742782.960][INFO]: Waiting for pending navigations...
+[1597742782.960][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.970][INFO]: Waiting for pending navigations...
+[1597742782.971][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.971][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE GetElementText "Еще не зарегистрированы?"
+[1597742782.974][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597742782.974][INFO]: Waiting for pending navigations...
+[1597742782.975][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.978][INFO]: Waiting for pending navigations...
+[1597742782.979][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.979][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "971b887e-ccf6-4eb0-9515-6efcc54e8cad"
+}
+[1597742782.982][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindChildElement {
+   "id": "971b887e-ccf6-4eb0-9515-6efcc54e8cad",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/BizRegistration\"]"
+}
+[1597742782.982][INFO]: Waiting for pending navigations...
+[1597742782.982][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.985][INFO]: Waiting for pending navigations...
+[1597742782.986][INFO]: Done waiting for pending navigations. Status: ok
+[1597742782.986][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742782.994][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a5091c42-0d00-4169-a06a-b06965182cd2"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597742782.994][INFO]: Waiting for pending navigations...
+[1597742782.995][INFO]: Done waiting for pending navigations. Status: ok
+[1597742783.000][INFO]: Waiting for pending navigations...
+[1597742783.000][INFO]: Done waiting for pending navigations. Status: ok
+[1597742783.000][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE ExecuteScript true
+[1597742783.004][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND ClickElement {
+   "id": "a5091c42-0d00-4169-a06a-b06965182cd2"
+}
+[1597742783.004][INFO]: Waiting for pending navigations...
+[1597742783.004][INFO]: Done waiting for pending navigations. Status: ok
+[1597742783.051][INFO]: Waiting for pending navigations...
+[1597742783.988][INFO]: Done waiting for pending navigations. Status: ok
+[1597742783.988][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE ClickElement
+[1597742786.996][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "title"
+}
+[1597742787.008][INFO]: Waiting for pending navigations...
+[1597742787.011][INFO]: Done waiting for pending navigations. Status: ok
+[1597742787.027][INFO]: Waiting for pending navigations...
+[1597742787.028][INFO]: Done waiting for pending navigations. Status: ok
+[1597742787.028][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5b718879-ecc0-4444-a485-1dfeaf8d4627"
+}
+[1597742787.036][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "5b718879-ecc0-4444-a485-1dfeaf8d4627"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597742787.036][INFO]: Waiting for pending navigations...
+[1597742787.037][INFO]: Done waiting for pending navigations. Status: ok
+[1597742787.044][INFO]: Waiting for pending navigations...
+[1597742787.045][INFO]: Done waiting for pending navigations. Status: ok
+[1597742787.045][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE ExecuteScript false
+[1597742787.046][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND GetTitle {
+
+}
+[1597742787.046][INFO]: Waiting for pending navigations...
+[1597742787.047][INFO]: Done waiting for pending navigations. Status: ok
+[1597742787.049][INFO]: Waiting for pending navigations...
+[1597742787.050][INFO]: Done waiting for pending navigations. Status: ok
+[1597742787.050][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE GetTitle "Регистрация"
+[1597742787.070][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] COMMAND Quit {
+
+}
+[1597742787.104][INFO]: [a6e7a7ffcdda0dcf9cd3cd20917ad95f] RESPONSE Quit

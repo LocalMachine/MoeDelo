@@ -1,0 +1,17 @@
+1597742808494	geckodriver	INFO	Listening on 127.0.0.1:15379
+1597742808983	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\regon\\AppData\\Local\\Temp\\rust_mozprofiled8ZcgI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597742811553	Marionette	INFO	Listening on port 63799
+1597742811611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://st.mdstatic.org/Marketing//vendor.c1159306495018b70ba7.js, line 1: unreachable code after return statement
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-KRZKHK, line 4534: uncaught exception: [object Object]
+JavaScript error: https://www.moedelo.org/ForgotPassword line 4541 > injectedScript, line 1: ReferenceError: $ is not defined
+1597742817266	Marionette	INFO	Stopped listening on port 63799
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

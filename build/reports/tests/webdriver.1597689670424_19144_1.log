@@ -1,0 +1,10 @@
+1597689670496	geckodriver	INFO	Listening on 127.0.0.1:34475
+1597689670991	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\regon\\AppData\\Local\\Temp\\rust_mozprofile6gXpXz"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597689673072	Marionette	INFO	Listening on port 52464
+1597689673123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st.mdstatic.org/App2//vendor.bb129ae14a36491b16f3.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.moedelo.org/Main?_companyId=9137852, line 2: unreachable code after return statement
+1597689681013	Marionette	INFO	Stopped listening on port 52464

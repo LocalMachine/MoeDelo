@@ -1,0 +1,347 @@
+[1597747866.106][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 48867
+[1597747866.106][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597747866.933][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "B:\\IntelijIdea_projects\\Moedelo\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "B:\\IntelijIdea_projects\\Moedelo\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597747866.937][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "B:\\IntelijIdea_projects\\Moedelo\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597747866.937][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597747866.938][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\regon\AppData\Local\Temp\scoped_dir12624_73797674" data:,
+[1597747867.485][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597747869.504][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597747871.518][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\regon\\AppData\\Local\\Temp\\scoped_dir12624_73797674"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50847"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2184311a4815080f5df39ca93ebfed70"
+}
+[1597747871.595][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND MaximizeWindow {
+
+}
+[1597747871.595][INFO]: Waiting for pending navigations...
+[1597747871.596][INFO]: Done waiting for pending navigations. Status: ok
+[1597747871.711][INFO]: Waiting for pending navigations...
+[1597747871.711][INFO]: Done waiting for pending navigations. Status: ok
+[1597747871.711][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1597747871.719][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND Navigate {
+   "url": "https://oauth.moedelo.org/Authorize"
+}
+[1597747871.719][INFO]: Waiting for pending navigations...
+[1597747871.720][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.146][INFO]: Waiting for pending navigations...
+[1597747872.792][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.792][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE Navigate
+[1597747872.850][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597747872.850][INFO]: Waiting for pending navigations...
+[1597747872.850][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.861][INFO]: Waiting for pending navigations...
+[1597747872.862][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.862][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1"
+}
+[1597747872.868][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindChildElement {
+   "id": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/ForgotPassword\"]"
+}
+[1597747872.894][INFO]: Waiting for pending navigations...
+[1597747872.895][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.902][INFO]: Waiting for pending navigations...
+[1597747872.903][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.903][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747872.926][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597747872.926][INFO]: Waiting for pending navigations...
+[1597747872.926][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.937][INFO]: Waiting for pending navigations...
+[1597747872.937][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.937][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE ExecuteScript true
+[1597747872.941][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597747872.941][INFO]: Waiting for pending navigations...
+[1597747872.941][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.945][INFO]: Waiting for pending navigations...
+[1597747872.945][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.945][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1"
+}
+[1597747872.948][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindChildElement {
+   "id": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/ForgotPassword\"]"
+}
+[1597747872.948][INFO]: Waiting for pending navigations...
+[1597747872.949][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.952][INFO]: Waiting for pending navigations...
+[1597747872.952][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.952][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747872.962][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597747872.962][INFO]: Waiting for pending navigations...
+[1597747872.963][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.971][INFO]: Waiting for pending navigations...
+[1597747872.972][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.972][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE ExecuteScript true
+[1597747872.976][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597747872.976][INFO]: Waiting for pending navigations...
+[1597747872.977][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.980][INFO]: Waiting for pending navigations...
+[1597747872.980][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.980][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1"
+}
+[1597747872.984][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindChildElement {
+   "id": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/ForgotPassword\"]"
+}
+[1597747872.984][INFO]: Waiting for pending navigations...
+[1597747872.984][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.988][INFO]: Waiting for pending navigations...
+[1597747872.988][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.988][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747872.991][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND GetElementTagName {
+   "id": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747872.991][INFO]: Waiting for pending navigations...
+[1597747872.992][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.994][INFO]: Waiting for pending navigations...
+[1597747872.994][INFO]: Done waiting for pending navigations. Status: ok
+[1597747872.994][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE GetElementTagName "a"
+[1597747872.996][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND GetElementText {
+   "id": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747872.996][INFO]: Waiting for pending navigations...
+[1597747872.996][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.007][INFO]: Waiting for pending navigations...
+[1597747873.007][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.007][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE GetElementText "Забыли пароль?"
+[1597747873.012][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[role=\"presentation\"]"
+}
+[1597747873.012][INFO]: Waiting for pending navigations...
+[1597747873.013][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.017][INFO]: Waiting for pending navigations...
+[1597747873.017][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.017][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1"
+}
+[1597747873.021][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindChildElement {
+   "id": "0a9222c5-e74e-4a7f-8614-8a9c4a5360f1",
+   "using": "css selector",
+   "value": "[href=\"https://www.moedelo.org/ForgotPassword\"]"
+}
+[1597747873.021][INFO]: Waiting for pending navigations...
+[1597747873.021][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.025][INFO]: Waiting for pending navigations...
+[1597747873.025][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.025][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747873.035][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "4cfafb83-b2ef-40ae-a872-589091781830"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597747873.035][INFO]: Waiting for pending navigations...
+[1597747873.036][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.041][INFO]: Waiting for pending navigations...
+[1597747873.042][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.042][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE ExecuteScript true
+[1597747873.045][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND ClickElement {
+   "id": "4cfafb83-b2ef-40ae-a872-589091781830"
+}
+[1597747873.046][INFO]: Waiting for pending navigations...
+[1597747873.046][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.218][INFO]: Waiting for pending navigations...
+[1597747873.953][INFO]: Done waiting for pending navigations. Status: ok
+[1597747873.953][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE ClickElement
+[1597747876.961][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND FindElement {
+   "using": "css selector",
+   "value": "title"
+}
+[1597747876.961][INFO]: Waiting for pending navigations...
+[1597747876.963][INFO]: Done waiting for pending navigations. Status: ok
+[1597747876.983][INFO]: Waiting for pending navigations...
+[1597747876.984][INFO]: Done waiting for pending navigations. Status: ok
+[1597747876.984][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a5256b0c-1ea8-4f0e-ad5c-b4a049800d49"
+}
+[1597747876.992][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "a5256b0c-1ea8-4f0e-ad5c-b4a049800d49"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1597747876.993][INFO]: Waiting for pending navigations...
+[1597747876.994][INFO]: Done waiting for pending navigations. Status: ok
+[1597747877.002][INFO]: Waiting for pending navigations...
+[1597747877.003][INFO]: Done waiting for pending navigations. Status: ok
+[1597747877.003][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE ExecuteScript false
+[1597747877.004][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND GetTitle {
+
+}
+[1597747877.005][INFO]: Waiting for pending navigations...
+[1597747877.005][INFO]: Done waiting for pending navigations. Status: ok
+[1597747877.007][INFO]: Waiting for pending navigations...
+[1597747877.008][INFO]: Done waiting for pending navigations. Status: ok
+[1597747877.008][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE GetTitle "Восстановление пароля - «Моё дело»"
+[1597747877.120][INFO]: [2184311a4815080f5df39ca93ebfed70] COMMAND Quit {
+
+}
+[1597747877.159][INFO]: [2184311a4815080f5df39ca93ebfed70] RESPONSE Quit
