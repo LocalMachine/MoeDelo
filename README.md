@@ -3,7 +3,7 @@
 
 **Технологии:**
 * Java
-* Maven
+* Selenide
 * TestNg
 * Allure
 
