@@ -9,7 +9,7 @@ import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
 public class ScreenshotListener extends TestListenerAdapter {
-
+/*
     @Override
     public void onTestFailure(ITestResult result) {
         WebDriver driver = WebDriverRunner.getWebDriver();
@@ -21,4 +21,6 @@ public class ScreenshotListener extends TestListenerAdapter {
     private byte[] saveScreenshot(byte[] screenshot) {
         return screenshot;
     }
+
+ */
 }
