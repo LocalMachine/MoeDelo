@@ -18,10 +18,11 @@ public class Configurations {
 
     public void browserConfiguration(String browser, boolean headless) {
         Configuration.remote = "http://localhost:4444/wd/hub";
-        Configuration.browser = "chrome";
-        Configuration.browserSize = "1280x1024";
+        Configuration.browser = browser;
+        Configuration.browserSize = "1920x1080";
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
     }
 
