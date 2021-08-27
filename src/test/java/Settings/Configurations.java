@@ -22,6 +22,8 @@ public class Configurations {
      */
 
     public void browserConfiguration(String browser, boolean headless) throws MalformedURLException {
+        Configuration.remote = "http://192.168.0.136:4444/wd/hub";
+        Configuration.driverManagerEnabled = false;
         DesiredCapabilities capabilities = new DesiredCapabilities();
         //capabilities.setCapability("browserName", browser);
         capabilities.setCapability("browserName", "chrome");
@@ -34,6 +36,7 @@ public class Configurations {
                 URI.create("http://192.168.0.136:4444/wd/hub").toURL(),
                 capabilities
         );
+
     }
 
     @BeforeClass
@@ -44,7 +47,7 @@ public class Configurations {
 
     @AfterMethod
     protected void tearDown() {
-        new Helpers().closeDriver();
+        //new Helpers().closeDriver();
     }
 
 }
