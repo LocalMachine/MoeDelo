@@ -21,7 +21,7 @@ public class SignInPage {
     private final SelenideElement passwordInput = inputCollection.findBy(attribute("type", "password"));
 
     private final SelenideElement signInButton = buttonCollection.findBy(text("Войти в сервис"));
-
+                                                                                     //h1[@class="produnctName"]//following::div/img/@src
     private final SelenideElement errorMessageDiv = authorizationForm.find(byXpath(".//div[text()='Пользователь не найден.']"));
     private final SelenideElement forgotPasswordLink = authorizationForm.find(byAttribute("href", "https://www.moedelo.org/ForgotPassword"));
     private final SelenideElement registrationLink = authorizationForm.find(byAttribute("href", "https://www.moedelo.org/BizRegistration"));
