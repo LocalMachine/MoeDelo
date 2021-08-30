@@ -14,7 +14,7 @@
         <testng.version>7.1.0</testng.version>
         <allure.version>2.13.5</allure.version>
         <allure-maven.version>2.10.0</allure-maven.version>
-        <aspectj.version>1.8.10</aspectj.version>
+        <aspectj.version>1.9.2</aspectj.version>
         <slf4j.version>1.6.2</slf4j.version>
     </properties>
 
@@ -68,8 +68,8 @@
                 <version>3.8.1</version>
                 <configuration>
                     <encoding>UTF-8</encoding>
-                    <source>9</source>
-                    <target>9</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
 

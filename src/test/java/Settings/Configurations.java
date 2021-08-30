@@ -29,10 +29,8 @@ public class Configurations {
         //capabilities.setCapability("browserName", browser);
         capabilities.setCapability("browserName", "chrome");
         capabilities.setCapability("browserVersion", "92.0");
-        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-                "enableVNC", true,
-                "enableVideo", false
-        ));
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", false);
         driver = new RemoteWebDriver(
                 URI.create("http://192.168.0.136:4444/wd/hub").toURL(),
                 capabilities
@@ -40,7 +38,7 @@ public class Configurations {
 
     }
 
-    @BeforeTest
+    @BeforeClass
     @Parameters("browser")
     protected void setUp(@Optional("browser") String browser) throws MalformedURLException {
         new Configurations().browserConfiguration(browser, true);
