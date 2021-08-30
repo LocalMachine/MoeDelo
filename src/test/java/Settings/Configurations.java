@@ -27,7 +27,7 @@ public class Configurations{
 
     }
 
-    @BeforeClass
+    @BeforeMethod
     @Parameters("browser")
     protected void setUp(@Optional("browser") String browser) {
         new Configurations().browserConfiguration(browser);
