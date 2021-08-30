@@ -13,15 +13,16 @@ public class Configurations{
 
     public void browserConfiguration(String browser, String version) {
         Configuration.remote = "http://192.168.0.136:4444/wd/hub";
+        DesiredCapabilities capabilities = new DesiredCapabilities();
 
         Map<String, Boolean> options = new HashMap<>();
         options.put("enableVNC", true);
         options.put("enableVideo", false);
         options.put("enableLog", true);
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName(browser);
-        capabilities.setVersion(version);
+
+        capabilities.setCapability("browserName", browser);
+        capabilities.setCapability("browserVersion", version);
         capabilities.setCapability("selenoid:options", options);
         Configuration.browserCapabilities = capabilities;
 
