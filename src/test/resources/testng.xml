@@ -6,12 +6,14 @@
     </listeners>
     <test name="Test for Chrome browser">
         <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="92.0"/>
         <classes>
             <class name="Tests.SignInTest"/>
         </classes>
     </test>
     <test name="Test for Firefox browser">
         <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="91.0"/>
         <classes>
             <class name="Tests.SignInTest"/>
         </classes>

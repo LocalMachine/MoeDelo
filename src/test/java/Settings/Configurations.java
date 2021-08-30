@@ -1,6 +1,7 @@
 package Settings;
 
 import com.codeborne.selenide.Configuration;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.*;
 
@@ -11,7 +12,7 @@ import java.util.Map;
 
 public class Configurations{
 
-    public void browserConfiguration(String browser) {
+    public void browserConfiguration(String browser, String version) {
         Configuration.remote = "http://192.168.0.136:4444/wd/hub";
         //capabilities.setCapability("browserName", browser);
 
@@ -21,18 +22,17 @@ public class Configurations{
         options.put("enableLog", true);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("browserName", browser);
-        //capabilities.setBrowserName("chrome");
-        //capabilities.setVersion("92.0");
+        capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
+        capabilities.setCapability(CapabilityType.BROWSER_VERSION, version);
         capabilities.setCapability("selenoid:options", options);
         Configuration.browserCapabilities = capabilities;
 
     }
 
     @BeforeClass
-    @Parameters("browser")
-    protected void setUp(@Optional("browser") String browser) {
-        new Configurations().browserConfiguration(browser);
+    @Parameters({"browser", "version"})
+    protected void setUp(@Optional("browser") String browser, @Optional("version") String version) {
+        new Configurations().browserConfiguration(browser, version);
     }
 
     @AfterMethod
