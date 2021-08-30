@@ -19,15 +19,17 @@ public class Configurations{
         options.put("enableVNC", true);
         options.put("enableVideo", false);
         options.put("enableLog", true);
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
-        capabilities.setVersion("92.0");
+        capabilities.setCapability("browserName", browser);
+        //capabilities.setBrowserName("chrome");
+        //capabilities.setVersion("92.0");
         capabilities.setCapability("selenoid:options", options);
         Configuration.browserCapabilities = capabilities;
 
     }
 
-    @BeforeMethod
+    @BeforeClass
     @Parameters("browser")
     protected void setUp(@Optional("browser") String browser) {
         new Configurations().browserConfiguration(browser);
@@ -35,7 +37,7 @@ public class Configurations{
 
     @AfterMethod
     protected void tearDown() {
-        //new Helpers().closeDriver();
+        new Helpers().closeDriver();
     }
 
 }
