@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class Configurations{
 
-    @BeforeClass
+    @BeforeTest
     @Parameters({"browser", "version"})
     protected void setUp(@Optional("browser") String browser, @Optional("version") String version) {
         new Configurations().browserConfiguration(browser, version);
