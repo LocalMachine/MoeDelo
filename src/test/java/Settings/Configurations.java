@@ -36,7 +36,7 @@ public class Configurations{
 
     }
 
-    @AfterTest
+    @AfterMethod
     protected void tearDown() {
         new Helpers().closeDriver();
     }
