@@ -11,10 +11,10 @@ import java.util.Map;
 
 public class Configurations{
 
-    @BeforeTest
+    @BeforeMethod
     @Parameters({"browser", "version"})
     protected void setUp(@Optional("browser") String browser, @Optional("version") String version) {
-        new Configurations().browserConfiguration(browser, version);
+        browserConfiguration(browser,version);
     }
 
 
@@ -22,6 +22,7 @@ public class Configurations{
         Configuration.remote = "http://192.168.0.136:4444/wd/hub";
         Configuration.browser = browser;
         Configuration.browserVersion = version;
+        Configuration.browserSize = "1920x1080";
 
         Map<String, Boolean> options = new HashMap<>();
         options.put("enableVNC", true);
@@ -29,8 +30,6 @@ public class Configurations{
         options.put("enableLog", true);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
-        capabilities.setCapability(CapabilityType.BROWSER_VERSION, version);
         capabilities.setCapability("selenoid:options", options);
         Configuration.browserCapabilities = capabilities;
 
