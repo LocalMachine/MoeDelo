@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class Configurations{
 
-    @BeforeClass
+    @BeforeTest
     @Parameters({"browser", "version"})
     protected void setUp(@Optional("browser") String browser, @Optional("version") String version) {
         new Configurations().browserConfiguration(browser, version);
@@ -20,8 +20,8 @@ public class Configurations{
 
     public void browserConfiguration(String browser, String version) {
         Configuration.remote = "http://192.168.0.136:4444/wd/hub";
-        Configuration.browser = browser;
-        Configuration.browserVersion = version;
+        //Configuration.browser = browser;
+        //Configuration.browserVersion = version;
 
         Map<String, Boolean> options = new HashMap<>();
         options.put("enableVNC", true);
@@ -29,14 +29,14 @@ public class Configurations{
         options.put("enableLog", true);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        //capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
-        //capabilities.setCapability(CapabilityType.BROWSER_VERSION, version);
+        capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
+        capabilities.setCapability(CapabilityType.BROWSER_VERSION, version);
         capabilities.setCapability("selenoid:options", options);
         Configuration.browserCapabilities = capabilities;
 
     }
 
-    @AfterMethod
+    @AfterTest
     protected void tearDown() {
         new Helpers().closeDriver();
     }
