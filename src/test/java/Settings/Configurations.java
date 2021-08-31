@@ -22,7 +22,7 @@ public class Configurations{
 
 
     public RemoteWebDriver browserConfiguration(String browser, String version) throws MalformedURLException {
-        //Configuration.remote = "http://192.168.0.136:4444/wd/hub";
+        Configuration.remote = "http://192.168.0.136:4444/wd/hub";
         Map<String, Boolean> options = new HashMap<>();
         options.put("enableVNC", true);
         options.put("enableVideo", false);
