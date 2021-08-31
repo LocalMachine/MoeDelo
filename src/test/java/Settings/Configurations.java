@@ -34,7 +34,7 @@ public class Configurations{
         capabilities.setCapability("selenoid:options", options);
         try {
             RemoteWebDriver driver = new RemoteWebDriver(
-                    URI.create("http://selenoid:4444/wd/hub").toURL(),
+                    URI.create("http://192.168.0.136:4444/wd/hub").toURL(),
                     capabilities
             );
         } catch (MalformedURLException e) {
