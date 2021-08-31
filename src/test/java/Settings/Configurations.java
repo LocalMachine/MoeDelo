@@ -16,12 +16,12 @@ public class Configurations{
 
     @BeforeClass
     @Parameters({"browser", "version"})
-    protected void setUp(@Optional("browser") String browser, @Optional("version") String version) {
+    protected void setUp(@Optional("browser") String browser, @Optional("version") String version) throws MalformedURLException {
         new Configurations().browserConfiguration(browser, version);
     }
 
 
-    public void browserConfiguration(String browser, String version) {
+    public RemoteWebDriver browserConfiguration(String browser, String version) throws MalformedURLException {
         //Configuration.remote = "http://192.168.0.136:4444/wd/hub";
         Map<String, Boolean> options = new HashMap<>();
         options.put("enableVNC", true);
@@ -32,14 +32,9 @@ public class Configurations{
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("browserVersion", version);
         capabilities.setCapability("selenoid:options", options);
-        try {
-            RemoteWebDriver driver = new RemoteWebDriver(
-                    URI.create("http://192.168.0.136:4444/wd/hub").toURL(),
-                    capabilities
-            );
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
+        return new RemoteWebDriver(
+                URI.create("http://192.168.0.136:4444/wd/hub").toURL(),
+                capabilities);
 
     }
 
