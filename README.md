@@ -6,6 +6,7 @@
 * Selenide
 * TestNg
 * Allure
+* Selenoid
 
 
 **###Maven команда для прогона теста и вывода отчета:**
