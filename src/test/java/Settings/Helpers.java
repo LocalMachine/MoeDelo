@@ -24,7 +24,7 @@ public class Helpers {
         if (WebDriverRunner.hasWebDriverStarted()) WebDriverRunner.closeWebDriver();
     }
 
-    @Step("Проверить текущий title")
+    @Step("Проверить title")
     public void checkCurrentTitle(String titleText) {
         title.should(exist);
         Assert.assertEquals(Selenide.title(), titleText);
